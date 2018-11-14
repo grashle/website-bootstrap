@@ -19,6 +19,10 @@ body {
       } */
 }
 
+.name-headings {
+  padding: 10px 0px;
+}
+
 .short-bio {
   box-sizing: border-box;
   color: #00334d;
@@ -26,7 +30,7 @@ body {
   border-style: solid;
   border-color: grey;
   background-color: #ccddfe;
-  max-width: 33%;
+  max-width: 36%;
   float: left;
 }
 
