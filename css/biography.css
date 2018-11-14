@@ -63,6 +63,7 @@ li {
 img {
   max-width: 70%;
   border-radius: 25px;
+  padding-top: 5px;
 }
 
 .long-bio {
