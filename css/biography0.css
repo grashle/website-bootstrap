@@ -1,0 +1,67 @@
+h2 {
+  color: darkblue;
+}
+
+body {
+  font-family: Georgia, sans-serif;
+  background-color: lightblue;
+  text-align: center
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }}
+
+.name-headings {
+  padding: 10px;
+}
+
+.short-bio {
+  box-sizing: border-box;
+  color: #00334d;
+  font-size: 16px;
+  border-style: solid;
+  border-color: grey;
+  background-color: #ccddfe;
+  max-width: 45%;
+  float: left;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* how do i get unlisted bullet points in only the short bio?*/
+.long-bio {
+  color: black;
+  font-size: 16px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-color: white;
+  background-color: #CAFFEB;
+  height: 910px;
+  float: right;
+  padding-left: 5%;
+  padding-right: 5%;
+  max-width: 62%;
+  overflow: auto;
+}
+
+.quote {
+  font-weight: bolder;
+  font-size: 1.5vw;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+img {
+  max-width: 70%;
+  border-radius: 25px;
+  padding-top: 5px;
+}
+
+.long-bio {
+  float: right;
+  max-width: 50%;
+}

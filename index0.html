@@ -1,17 +1,16 @@
 ﻿
 <!DOCTYPE html>
 <html lang="en-GB">
-
+<!--try and make the design responsive-->
 <head>
   <title class='main-headings'> Grace Hopper </title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/biography.css">
+  <link rel="stylesheet" href="./css/biography0.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, intitial-scale=1.0">
 </head>
 
 <body>
-  <!--removed the <main> tag as it didn't seem neccessary-->
 
   <blockquote class='quote'>
     <!--remove the container class to stop it being centred-->
@@ -21,7 +20,8 @@
 
   <div class='container-fluid main-text'> <!--this is the div for the main content - both bios-->
     <div class='row'>
-      <div class='col-md-10 offset-md-1'><!--remember the column totals must not be more than 12-->
+      <div class='col-md-10 offset-md-1'>
+<!--remember the column totals must not be more than 12. For mobile-first design, the widtth of the short bio and long bio sections would be 100% so that they are on top of each other.-->
         <section class='short-bio'>
           <h1 class='name-headings'> grace hopper </h1>
           <figure>
@@ -69,8 +69,5 @@
     </div>  <!--closes the row of main section-->
   </div><!-- closes the container element-->
 
-
 </body>
-
-
 </html>
