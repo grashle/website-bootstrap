@@ -11,16 +11,15 @@ body {
 @media screen and (max-width: 600px) {
   body {
     background-color: white;
-  }
+  }}
 
   /*@media only screen and (orientation: portrait) {
       body {
           background-color: green;
       } */
-}
 
 .name-headings {
-  padding: 10px 0px;
+  padding: 10px;
 }
 
 .short-bio {
@@ -30,7 +29,7 @@ body {
   border-style: solid;
   border-color: grey;
   background-color: #ccddfe;
-  max-width: 36%;
+  max-width: 45%;
   float: left;
 }
 
@@ -46,7 +45,7 @@ li {
   box-sizing: border-box;
   border-color: white;
   background-color: #CAFFEB;
-  height: 710px;
+  height: 910px;
   float: right;
   padding-left: 5%;
   padding-right: 5%;
@@ -57,7 +56,8 @@ li {
 .quote {
   font-weight: bolder;
   font-size: 1.5vw;
-  padding: 5px 0px;
+  padding-top: 25px;
+  padding-bottom: 10px;
 }
 
 img {
