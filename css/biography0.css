@@ -80,34 +80,21 @@ input[type='checkbox'] {
 
 .lbl-toggle {
   display: block;
-
   font-weight: bold;
-  font-family: monospace;
-  font-size: 1.2rem;
+  /*font-family: monospace;*/
+  font-size: 20px;
   text-align: center;
-
-  padding: 1rem;
-
-  color: #A77B0E;
-  background: #FAE042;
-
+  padding: 1%;
+  color: #ffffff;
+  background: darkblue;
   cursor: pointer;
-
   border-radius: 7px;
   transition: all 0.25s ease-out;
 }
 
-.lbl-toggle:hover {
-  color: #7C5A0B;
-}
-
-.collapsible-content .content-inner {
-  background: rgba(250, 224, 66, .2);
-  border-bottom: 1px solid rgba(250, 224, 66, .45);
-
+/.collapsible-content .content-inner {
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-  padding: .5rem 1rem;
 }
 
 .collapsible-content {
@@ -117,5 +104,28 @@ input[type='checkbox'] {
 }
 
 .toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 350px;
+  max-height: none;
 }
+/*.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}*/
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.custom-footer{
+  padding: 20px 0px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border-style: solid;
+  border-color: grey;
+  max-width: 30%;
+  border-radius: 25px;
+
+}
+/*
+.link a{
+  background-color: white;
+}*/
