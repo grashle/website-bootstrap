@@ -11,21 +11,22 @@ body {
 @media screen and (max-width: 600px) {
   body {
     background-color: white;
-  }}
+  }
+}
 
 .name-headings {
   padding: 10px;
 }
 
 .short-bio {
-  box-sizing: border-box;
   color: #00334d;
   font-size: 16px;
   border-style: solid;
   border-color: grey;
   background-color: #ccddfe;
-  max-width: 45%;
+  /*--max-width: 45%;
   float: left;
+  box-sizing: border-box;*/
 }
 
 li {
@@ -37,15 +38,17 @@ li {
   color: black;
   font-size: 16px;
   border-style: solid;
-  box-sizing: border-box;
   border-color: white;
   background-color: #CAFFEB;
-  height: 910px;
+  /*height: 910px;
+  float: right;
+  max-width: 62%;
+  box-sizing: border-box;
+  max-width: 50%;
+  overflow: auto;
   float: right;
   padding-left: 5%;
-  padding-right: 5%;
-  max-width: 62%;
-  overflow: auto;
+  padding-right: 5%;*/
 }
 
 .quote {
@@ -59,9 +62,4 @@ img {
   max-width: 70%;
   border-radius: 25px;
   padding-top: 5px;
-}
-
-.long-bio {
-  float: right;
-  max-width: 50%;
 }
