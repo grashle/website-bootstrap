@@ -1,10 +1,15 @@
-.fade {
-  opacity: 1;
+.home-page-title{
+  padding: 100px 0px;
+  font-family: Niramit;
+  font-weight: 600;
+  font-size: 70px;
 }
 
-.fade:hover{ 
-  opacity: 6;
+.instruction{
+  padding: 30px 0px;
+  font-size: 5px;
 }
+
 
 h2 {
   color: darkblue;
