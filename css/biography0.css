@@ -51,16 +51,17 @@
 
 .ch-img-1 {
 	background-image: url(../images/grace-hopper-portrait.jpg);
-  
+  background-repeat: round;
 }
 
 .ch-img-2 {
 	background-image: url(../images/hmm.jpg);
-
+  background-repeat: round;
 }
 
 .ch-img-3 {
 	background-image: url(../images/katherine-johnson-portrait.jpg);
+  background-repeat: round;
 }
 .ch-info {
 	position: absolute;
